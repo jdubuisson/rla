@@ -1,0 +1,8 @@
+name: RlaTheme
+version: 1.0.0
+description: "Extending grav-theme-bootstrap for Roselyne Laurent Architecte"
+icon: crosshairs
+author:
+ name: Julien Dubuisson
+ email: jdubuisson@users.noreply.github.com
+ url: https://github.com/jdubuisson

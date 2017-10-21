@@ -1,0 +1,9 @@
+name: Roselyne Laurent Architecte
+version: 1.0.0
+description: "Roselyne Laurent Architecte."
+icon: comments
+author:
+ name: Julien Dubuisson
+ email: jdubuisson@users.noreply.github.com
+ url: https://github.com/jdubuisson
+license: MIT

@@ -1,0 +1,20 @@
+# Grav Specific
+accounts/*
+!accounts/.*
+config/security.yaml
+data/*
+!data/.*
+plugins/*
+!plugins/.*
+themes/bootstrap
+localhost/config/security.yaml
+
+# OS Generated
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# phpstorm
+.idea/*

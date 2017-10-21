@@ -1,0 +1,36 @@
+<div class="modular-row features {{ page.header.class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-8">
+                <h2>{{ page.title }}</h2>
+            </div>
+            <div class="col-md-8">
+                {% for target in page.header.targets %}
+                    <div class="row">
+                        {% if target.title %}
+                            <div class="col-md-12">
+                                <h3>{{ target.title }}</h3>
+                            </div>
+                        {% endif %}
+                        {% if target.text %}
+                            <div class="col-md-10 col-sm-6">
+                                {{ target.text }}
+                            </div>
+                        {% endif %}
+                        {% if target.img %}
+                            {% set image = page.media[target.img] %}
+                            {% if image %}
+                                <div class="col-md-2 col-sm-6">
+                                    {{ image.html('','','align-'~page.header.image_align) }}
+                                </div>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
