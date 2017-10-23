@@ -1,3 +1,5 @@
+{% set collection = page.collection() %}
+
 <div class="modular-row features {{ page.header.class }}">
     <div class="container">
         <div class="row">
@@ -5,25 +7,23 @@
                 <h2>{{ page.title }}</h2>
             </div>
             <div class="col-md-8">
-                {% for target in page.header.targets %}
+                {% for target in collection %}
                     <div class="row">
                         {% if target.title %}
                             <div class="col-md-12">
                                 <h3>{{ target.title }}</h3>
                             </div>
                         {% endif %}
-                        {% if target.text %}
+                        {% if target.content %}
                             <div class="col-md-10 col-sm-6">
-                                {{ target.text }}
+                                {{ target.content }}
                             </div>
                         {% endif %}
-                        {% if target.img %}
-                            {% set image = page.media[target.img] %}
-                            {% if image %}
+                        {% set image = target.media.images|first %}
+                        {% if image %}
                                 <div class="col-md-2 col-sm-6">
                                     {{ image.html('','','align-'~page.header.image_align) }}
                                 </div>
-                            {% endif %}
                         {% endif %}
                     </div>
                 {% endfor %}

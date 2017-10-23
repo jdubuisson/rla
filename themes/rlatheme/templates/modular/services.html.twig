@@ -1,29 +1,40 @@
+{% set collection = page.collection() %}
+
 <div class="modular-row features {{ page.header.class }}">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-            <h2>{{ page.title }}</h2>
+                <h2>{{ page.title }}</h2>
             </div>
             <div class="col-md-8">
+                {# tab headers #}
                 <div class="feature-items row">
-                    {% for feature in page.header.features %}
-                        <div class="feature col-md-3">
-                            {% if feature.icon %}
-                                <i class="fa fa-fw fa-{{ feature.icon }}"></i>
+                    {% for child in collection %}
+                        <div class="feature col-md-3{% if loop.index == 1 %} active{% endif %}"
+                             href="#content-{{ child.header.listcode }}" data-toggle="tab"  >
+                            {% if child.header.icon %}
+                                <i class="fa fa-fw fa-{{ child.header.icon }}"></i>
                             {% endif %}
-                            <div class="feature-content{% if feature.icon %} push{% endif %}">
-                                {% if feature.header %}
-                                    <h4>{{ feature.header }}</h4>
-                                {% endif %}
-                                {% if feature.text %}
-                                    <p>{{ feature.text }}</p>
+                            <div class="feature-content{% if child.header.icon %} push{% endif %}">
+                                {% if child.title %}
+                                    <h4>{{ child.title }}</h4>
                                 {% endif %}
                             </div>
                         </div>
                     {% endfor %}
                 </div>
+                {# tab panels #}
+                <div class="feature-content row tab-content">
+                {% for child in collection %}
+                    {% if child.content %}
+                        <div id="content-{{ child.header.listcode }}"
+                             class="tab-pane col-md-12{% if loop.index == 1 %} active{% endif %}">
+                            {{ child.content }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                </div>
 
-                {{ content }}
             </div>
             <div class="col-md-4">
                 {% set image = page.media.images|first %}
