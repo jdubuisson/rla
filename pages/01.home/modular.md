@@ -15,6 +15,8 @@ content:
             - _target
             - _why
             - _approach
+            - _user-reviews
+            - _credentials
 ---
 
 

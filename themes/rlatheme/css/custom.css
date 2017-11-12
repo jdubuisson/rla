@@ -10,3 +10,20 @@
 .modular .features .feature.col-md-2 {
     width: 16.66%
 }
+
+/* masonry grid for credentials */
+.masonry-grid-item--big{
+    width:50%;
+}
+
+.masonry-grid-item .masonry-big {
+    display: none;
+}
+
+.masonry-grid-item--big .masonry-big {
+    display: block;
+}
+
+.masonry-grid-item--big .masonry-small {
+    display: none;
+}
