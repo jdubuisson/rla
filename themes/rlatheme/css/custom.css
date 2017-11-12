@@ -5,3 +5,8 @@
 .modular .features .feature {
     text-align: center;
 }
+
+/* bootstrap css override : feature was set to 25% width*/
+.modular .features .feature.col-md-2 {
+    width: 16.66%
+}

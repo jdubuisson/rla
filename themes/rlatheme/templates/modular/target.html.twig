@@ -21,9 +21,9 @@
                         {% endif %}
                         {% set image = target.media.images|first %}
                         {% if image %}
-                                <div class="col-md-2 col-sm-6">
-                                    {{ image.html('','','align-'~page.header.image_align) }}
-                                </div>
+                            <div class="col-md-2 col-sm-6">
+                                {{ image.html('','','align-'~page.header.image_align) }}
+                            </div>
                         {% endif %}
                     </div>
                 {% endfor %}

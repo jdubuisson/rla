@@ -11,7 +11,7 @@
                 <div class="feature-items row">
                     {% for child in collection %}
                         <div class="feature col-md-3{% if loop.index == 1 %} active{% endif %}"
-                             href="#content-{{ child.header.listcode }}" data-toggle="tab"  >
+                             href="#content-{{ child.header.listcode }}" data-toggle="tab">
                             {% if child.header.icon %}
                                 <i class="fa fa-fw fa-{{ child.header.icon }}"></i>
                             {% endif %}
@@ -25,14 +25,14 @@
                 </div>
                 {# tab panels #}
                 <div class="feature-content row tab-content">
-                {% for child in collection %}
-                    {% if child.content %}
-                        <div id="content-{{ child.header.listcode }}"
-                             class="tab-pane col-md-12{% if loop.index == 1 %} active{% endif %}">
-                            {{ child.content }}
-                        </div>
-                    {% endif %}
-                {% endfor %}
+                    {% for child in collection %}
+                        {% if child.content %}
+                            <div id="content-{{ child.header.listcode }}"
+                                 class="tab-pane col-md-12{% if loop.index == 1 %} active{% endif %}">
+                                {{ child.content }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>
 
             </div>

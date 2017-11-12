@@ -1,0 +1,38 @@
+{% set collection = page.collection() %}
+
+<div class="modular-row features {{ page.header.class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>{{ page.title }}</h2>
+            </div>
+            <div class="col-md-8">
+                {# tab panels #}
+                <div class="feature-content row tab-content">
+                    {% for child in collection %}
+                        {% if child.content %}
+                            <div id="content-{{ child.header.listcode }}"
+                                 class="tab-pane col-md-12{% if loop.index == 1 %} active{% endif %}">
+                                {{ child.content }}
+                                {% if child.header.reviewauthor %}
+                                    <div class="text-center">
+                                        {{ child.header.reviewauthor }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                {# tab points #}
+                <div class="feature-items row">
+                    {% for child in collection %}
+                        <div class="feature col-md-2{% if loop.index == 1 %} col-md-offset-1 active{% endif %}"
+                             href="#content-{{ child.header.listcode }}" data-toggle="tab">
+                            <i class="fa fa-fw fa-circle"></i>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

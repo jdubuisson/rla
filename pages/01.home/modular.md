@@ -13,6 +13,8 @@ content:
             - _showcase
             - _services
             - _target
+            - _why
+            - _approach
 ---
 
 
