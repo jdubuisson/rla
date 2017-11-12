@@ -18,6 +18,7 @@ content:
             - _user-reviews
             - _credentials
             - _faq
+            - _contact
 ---
 
 

@@ -1,0 +1,21 @@
+{% set collection = page.collection() %}
+{% set links = collection|first %}
+<div class="modular-row features {{ page.header.class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-12">
+                <h2>{{ page.title }}</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                        {% include "forms/form.html.twig" %}
+            </div>
+            <div class="col-sm-4">
+                {{ page.content }}
+            </div>
+            <div class="col-sm-2">
+                <h2>{{ links.title }}</h2>
+                <div>{{ links.content }}</div>
+            </div>
+        </div>
+    </div>
+</div>

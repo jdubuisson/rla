@@ -1,0 +1,13 @@
+{% set value = (value is null ? field.default : value) %}
+
+<div class="form-group">
+    <label class="control-label">
+            {% if field.help %}
+            <span class="tooltip" data-asTooltip-position="w" title="{{ field.help|e }}">{{ field.label|default(field.name|capitalize)|t }}</span>
+            {% else %}
+            {{ field.label|default(field.name|capitalize)|t }}
+            {% endif %}
+            {{ field.validate.required in ['on', 'true', 1] ? '<span class="required">*</span>' }}
+    </label>
+        <textarea rows="5" class="form-control" name="{{ (scope ~ field.name)|fieldName }}">{{ value|join("\n") }}</textarea>
+</div>

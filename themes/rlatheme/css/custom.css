@@ -28,3 +28,14 @@
 .masonry-grid-credentials .masonry-grid-item--big{
     width:50%;
 }
+
+/* form */
+textarea {
+    resize: vertical;
+}
+
+/* alert-success "fix" while waiting for final design */
+.alert.green {
+    color: #3c763d;
+    background-color: #dff0d8;
+}
