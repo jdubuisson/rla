@@ -11,11 +11,7 @@
     width: 16.66%
 }
 
-/* masonry grid for credentials */
-.masonry-grid-item--big{
-    width:50%;
-}
-
+/* masonry grid common */
 .masonry-grid-item .masonry-big {
     display: none;
 }
@@ -26,4 +22,9 @@
 
 .masonry-grid-item--big .masonry-small {
     display: none;
+}
+
+/* masonry grid for credentials */
+.masonry-grid-credentials .masonry-grid-item--big{
+    width:50%;
 }

@@ -17,6 +17,7 @@ content:
             - _approach
             - _user-reviews
             - _credentials
+            - _faq
 ---
 
 
