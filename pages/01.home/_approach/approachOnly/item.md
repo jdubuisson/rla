@@ -4,4 +4,10 @@ ordering: 1
 listcode: approach
 ---
 
-Travailler ensemble Contrairement aux voitures électriques qui utilisent des batteries pour stocker l’électricité, les voitures à hydrogène fabriquent leur propre énergie grâce à des piles à combustible. Enseignant depuis 1997 à l’EMAC, Didier Grouset s’est beaucoup investi pour développer la filière hydrogène, parent pauvre de la mobilité électrique en France.
+**Travailler ensemble** pour répondre à vos souhaits, à travers une écoute et un respect de vos envies.
+
+Rechercher la **qualité, le confort et le bien-être** des usagers.
+
+Minimiser l'impact sur **l'environnement**, grâce à une réponse juste, sobre et saine.
+
+Surpasser vos attentes vers l'inattendu, ce petit plus qui rendra **unique** votre projet.

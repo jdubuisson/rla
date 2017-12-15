@@ -5,9 +5,9 @@ listcode: review-1
 reviewauthor: M-N T
 ---
 
-Lorem markdownum **vestris**, in cura; mille alipedum, coepere bellaque omnia.
-Vento qui victoria: insequar et Tritoniacam mugitus vestis nutat et omnibus
-quondam. Procubuit tradidit duro, alto liberat enim auxerat latus. Sui omnia
-**imagine vera queruntur** nupta, seque et *Demoleon mugitus*, ille **erat**.
-Tum dies sub et est defuit debere adorant *adflabat*, talibus in laudis gravem,
-nullo!
+Roselyne est à l'écoute des attentes, elle a bien évalué le potentiel de la maison.
+Elle m'a fait 2 propositions, quand je n'arrivais pas à me projeter.
+
+Aujourd'hui je suis très contente, c'est une autre maison dans laquelle je vis: lumière et espace.
+
+Merci Roselyne.

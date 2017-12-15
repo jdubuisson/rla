@@ -4,4 +4,10 @@ ordering: 1
 listcode: history
 ---
 
-Une première « station-service » distribuant cet hydrogène « vert », conçue par un ancien étudiant du professeur Grouset, a été inaugurée en 2014 sur le site du Centre d’enfouissement technique des déchets du Tarn, à Graulhet.
+Créée en 2017 à Nantes par Roselyne LAURENT
+
+2017 - Inscription à l'Ordre des Architectes
+
+2011 – HMOnp
+
+2010 – Diplômée de l'INSA de Strasbourg
