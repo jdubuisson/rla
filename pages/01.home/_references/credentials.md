@@ -1,7 +1,7 @@
 ---
 title: 7. Références
 menu: Références
-categories: [Extension,Rénovation,Aménagement extérieur, Neuf]
+categories: [Extension,Rénovation,Aménagement extérieur,Neuf]
 
 content:
     items: @self.children

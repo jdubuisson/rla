@@ -1,6 +1,6 @@
 ---
 title: 2. Pour qui ?
-menu: Pour qui ?
+menu: Pour qui ? <!--todo : a cacher-->
 content:
     items: @self.children
     order:

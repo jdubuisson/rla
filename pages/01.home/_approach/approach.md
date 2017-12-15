@@ -1,5 +1,5 @@
 ---
-title: 4. La démarche
+title: 4. La démarche<!--todo : a cacher-->
 menu: Ma démarche
 content:
     items: @self.children

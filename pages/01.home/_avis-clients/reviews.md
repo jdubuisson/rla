@@ -1,6 +1,6 @@
 ---
 title: 6. Avis de clients
-menu: Avis
+menu: Avis<!--todo : a cacher-->
 
 content:
     items: @self.children

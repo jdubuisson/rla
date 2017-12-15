@@ -1,5 +1,5 @@
 ---
-title: 10. Contact
+title: 9. Contact
 menu: Contact
 cache_enable: false
 content:
@@ -44,9 +44,11 @@ form:
         - reset: true
 ---
 
+70 route de Vannes  
+44100 NANTES  
+T 06 66 95 96 53
 
-Lorem markdownum mortalia eluditque sanguinis satis ducunt praeterit columbas:
-*ipsa Cadmi superos* Pyraethi *animosus*. Barbara Cyclopis oris. Spectatas
-traxit undis et nullum et novat. Libratum sit
-[vallis](http://in.org/saepe-quamquam.html) nostri cornua enim orbem monstra
-flamina thalamoque oculos guttis Paraetonium, nomine indigestaque.
+SARL au capital de 2000 euros  
+inscrite au conseil régional des architectes de Pays de la Loire au N° s083963
+
+SIRET : 82818340000013

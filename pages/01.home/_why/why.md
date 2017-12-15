@@ -1,6 +1,6 @@
 ---
 title: 3. Pourquoi un architecte ?
-menu: Pour quoi ?
+menu: Pour quoi ?<!--todo : a cacher-->
 ---
 
 Choisir de travailler un architecte, c'est en premier lieu :

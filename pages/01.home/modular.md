@@ -12,11 +12,11 @@ content:
         custom:
             - _showcase
             - _services
-            - _target
+            - _cible
             - _why
             - _approach
-            - _user-reviews
-            - _credentials
+            - _avis-clients
+            - _references
             - _faq
             - _contact
 ---

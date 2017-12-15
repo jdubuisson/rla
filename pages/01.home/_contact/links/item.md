@@ -1,11 +1,9 @@
 ---
-title: 11. Liens
+title: 10. Liens
 ordering: 1
 listcode: links
 ---
 
- * [vallis](http://in.org/saepe-quamquam.html)
- * [test](http://in.org/saepe-quamquam.html)
- * [truc](http://in.org/saepe-quamquam.html)
- * [lorem](http://in.org/saepe-quamquam.html)
- * [ipsum](http://in.org/saepe-quamquam.html)
+ * [L'Ordre des Architectes](http://www.architectes.org?target=_blank)
+ * [La FedAc](http://www.fedac.fr?target=_blank)
+ * [La Maison Ecologique](http://www.lamaisonecologique.com?target=_blank)
