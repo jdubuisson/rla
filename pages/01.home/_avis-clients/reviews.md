@@ -1,6 +1,7 @@
 ---
 title: 6. Avis de clients
 menu: Avis<!--todo : a cacher-->
+class: colored-blade
 
 content:
     items: @self.children

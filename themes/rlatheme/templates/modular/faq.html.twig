@@ -2,7 +2,7 @@
 
 <div class="modular-row features {{ page.header.class }}">
     <div class="container">
-        <h2>{{ page.title }}</h2>
+        <h2 class="text-center">{{ page.title }}</h2>
         <div class="row masonry-grid-faq">
             {% for child in collection %}
                 <div class="col-md-4 masonry-grid-item">
@@ -10,6 +10,7 @@
                         <h3>{{ child.header.title }}</h3>
                         <div class="masonry-small">
                             {{ child.summary() }}
+                            <strong class="more pull-right">LIRE<i class="fa fa-fw fa-plus"></i></strong>
                         </div>
                         <div class="masonry-big">
                             {{ child.content }}

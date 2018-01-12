@@ -5,9 +5,9 @@
 <div class="modular-row features {{ page.header.class }}">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-sm-6">
-                <h2>{{ approach.title }}</h2>
+            <div class="col-md-5 col-sm-6 rotated">
                 <div>{{ approach.content }}</div>
+                <h2>{{ approach.title }}</h2>
             </div>
             <div class="col-md-3 col-sm-6">
                 {% set image = page.media.images|first %}
@@ -16,7 +16,7 @@
                 {% endif %}
             </div>
             <div class="col-md-4 col-sm-12">
-                <h2>{{ history.title }}</h2>
+                <h2 class="text-center">{{ history.title }}</h2>
                 <div>{{ history.content }}</div>
             </div>
 

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .modular .features {
     text-align: left;
 }
@@ -25,8 +29,14 @@
 }
 
 /* masonry grid for credentials */
-.masonry-grid-credentials .masonry-grid-item--big{
-    width:50%;
+.masonry-grid-credentials .masonry-grid-item--big {
+    width: 50%;
+}
+
+@media only all and (max-width: 768px) {
+    .masonry-grid-credentials .masonry-grid-item--big {
+        width: 100%
+    }
 }
 
 /* form */

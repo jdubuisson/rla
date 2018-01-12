@@ -4,9 +4,9 @@ ordering: 1
 listcode: history
 ---
 
-Créée en 2017 à Nantes par Roselyne LAURENT
+Création en 2017 à Nantes par Roselyne LAURENT
 
-2017 - Inscription à l'Ordre des Architectes
+2017 – Inscription à l'Ordre des Architectes
 
 2011 – HMOnp
 

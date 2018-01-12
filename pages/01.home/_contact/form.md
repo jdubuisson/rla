@@ -2,6 +2,8 @@
 title: 9. Contact
 menu: Contact
 cache_enable: false
+class: colored-blade
+
 content:
     items: @self.children
     order:
@@ -28,8 +30,10 @@ form:
     buttons:
         - type: submit
           value: Envoyer
+          classes: btn btn-primary pull-right
         - type: reset
           value: Annuler
+          classes: btn btn-default
     process:
         - email:
             subject: "[Site Contact Form] {{ form.value.name|e }}"
@@ -46,7 +50,7 @@ form:
 
 70 route de Vannes  
 44100 NANTES  
-T 06 66 95 96 53
+<a class="black" href="tel:0666959653"><i class="fa fa-phone" aria-hidden="true"></i> 06 66 95 96 53</a>
 
 SARL au capital de 2000 euros  
 inscrite au conseil régional des architectes de Pays de la Loire au N° s083963
