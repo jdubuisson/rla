@@ -8,21 +8,23 @@
             </div>
             <div class="col-md-8 light-push">
                 {% for target in collection %}
-                    <div class="row">
-                        {% if target.title %}
+                    {% if target.title %}
+                        <div class="row">
                             <div class="col-md-12">
                                 <h3>{{ target.title }}</h3>
                             </div>
-                        {% endif %}
+                        </div>
+                    {% endif %}
+                    <div class="row row-eq-height">
                         {% if target.content %}
-                            <div class="col-md-10 col-sm-6">
+                            <div class="col-xs-10">
                                 {{ target.content }}
                             </div>
                         {% endif %}
-                        {% set image = target.media.images|first %}
-                        {% if image %}
-                            <div class="col-md-2 col-sm-6">
-                                {{ image.html('','','align-'~page.header.image_align) }}
+                        {% set icon = target.header.icon %}
+                        {% if icon %}
+                            <div class="col-xs-2 icon-container">
+                                <i class="fa fa-{{ icon }}"></i>
                             </div>
                         {% endif %}
                     </div>

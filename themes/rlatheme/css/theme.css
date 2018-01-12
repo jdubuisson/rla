@@ -23,6 +23,30 @@ a.black {
     margin-top: 0;
 }
 
+/*
+ * Row with equal height columns
+ */
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* icon-container*/
+.icon-container {
+    font-size: 3em;
+    text-align: center;
+    position: relative
+}
+
+.icon-container svg {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -100%)
+}
+
 /* nav bar */
 .navbar-default, .colored-blade {
     background-image: none;
@@ -37,7 +61,6 @@ a.black {
 }
 
 /* light push */
-
 .light-push .row {
     background-color: #8de5b5; /*light green*/
 }
