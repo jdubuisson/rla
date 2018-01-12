@@ -5,11 +5,16 @@ p {
 
 h3,
 strong,
-.modular .features .feature.active i.fa {
+.modular .features .feature.active {
     color: #00987f; /*green*/
 }
 
-.modular .features .feature i.fa, a.black {
+.modular .features .feature {
+    color: #333; /* drak grey */
+    font-size: 3em;
+}
+
+a.black {
     color: #333; /* drak grey */
 }
 
@@ -55,7 +60,7 @@ strong,
 /* colored blade */
 .modular .features.colored-blade h3,
 .modular .features.colored-blade strong,
-.modular .features.colored-blade .feature.active i.fa {
+.modular .features.colored-blade .feature.active {
     color: #effa00; /*yellow*/
 }
 

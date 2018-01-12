@@ -1,6 +1,6 @@
 ---
 title: Conseil et diagnostic
-icon: lightbulb-o
+icon: lightbulb
 ordering: 1
 listcode: advice
 ---

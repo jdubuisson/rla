@@ -1,6 +1,6 @@
 ---
 title: Etude de projet et permis de construire
-icon: user <!--paint-brush-->
+icon: pencil-alt
 ordering: 2
 listcode: study
 ---

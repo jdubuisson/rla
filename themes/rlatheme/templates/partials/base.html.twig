@@ -9,12 +9,12 @@
         <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}"/>
         {% block stylesheets %}
-            {% do assets.add('theme://css/font-awesome.min.css',99) %}
             {% do assets.add('theme://css-compiled/theme.css',98) %}
             {% do assets.add('theme://css/custom.css',98) %}
             {% do assets.add('theme://css/theme.css',98) %}
         {% endblock %}
         {{ assets.css() }}
+        <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
         {% block javascripts %}

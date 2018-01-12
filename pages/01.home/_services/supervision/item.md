@@ -1,6 +1,6 @@
 ---
 title: Suivi de chantier
-icon: user
+icon: cogs
 ordering: 3
 listcode: supervision
 ---

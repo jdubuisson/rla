@@ -1,6 +1,6 @@
 ---
 title: Accompagnement
-icon: user <!--handshake-o-->
+icon: handshake
 ordering: 4
 listcode: support
 ---
