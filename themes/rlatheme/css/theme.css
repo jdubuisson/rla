@@ -10,12 +10,12 @@ strong,
 }
 
 .modular .features .feature {
-    color: #333; /* drak grey */
+    color: #333; /* dark grey */
     font-size: 3em;
 }
 
 a.black {
-    color: #333; /* drak grey */
+    color: #333; /* dark grey */
 }
 
 /* reset from default theme*/
@@ -23,9 +23,11 @@ a.black {
     margin-top: 0;
 }
 
-/*
- * Row with equal height columns
- */
+.nav > li > a {
+    padding: 15px 10px;
+}
+
+/* Row with equal height columns */
 .row-eq-height {
     display: -webkit-box;
     display: -webkit-flex;
@@ -58,6 +60,24 @@ a.black {
 .navbar .navbar-brand {
     color: #effa00; /*yellow*/
     text-shadow: none;
+}
+
+/* header / showcase */
+.header {
+    background: none;
+    margin-top: 3em;
+}
+
+.header h1 {
+    padding-top: 0.7em;
+    color: #333; /* dark grey */
+    text-align: left;
+}
+
+@media only all and (max-width: 768px) {
+    .header h1 {
+        text-align: center;
+    }
 }
 
 /* light push */
@@ -98,8 +118,12 @@ a.black {
 }
 
 .colored-blade ul li a {
-    color: #333; /* drak grey */
+    color: #333; /* dark grey */
     font-weight: bold;
+}
+
+.modular .features.colored-blade .feature {
+    font-size: 2em;
 }
 
 /* references */
@@ -150,7 +174,7 @@ a.black {
 
 /* FAQ */
 .faq strong.more {
-    color: #333; /* drak grey */
+    color: #333; /* dark grey */
 }
 
 /* form buttons */
@@ -191,5 +215,5 @@ a.black {
 }
 
 .footer {
-    background: #333; /* drak grey */
+    background: #333; /* dark grey */
 }

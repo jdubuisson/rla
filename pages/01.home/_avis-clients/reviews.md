@@ -1,6 +1,6 @@
 ---
 title: 6. Avis de clients
-menu: Avis<!--todo : a cacher-->
+menu: Avis
 class: colored-blade
 
 content:

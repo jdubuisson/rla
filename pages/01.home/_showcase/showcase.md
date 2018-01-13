@@ -4,7 +4,6 @@ menu: Accueil
 ---
 
 # Roselyne Laurent Architecte
-## Agence d'architecture
 
 
     

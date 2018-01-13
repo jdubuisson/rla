@@ -1,9 +1,10 @@
 ---
 title: 3. Pourquoi un architecte ?
-menu: Pour quoi ?<!--todo : a cacher-->
+menu: Pour quoi ?
+show_menu: true
 ---
 
-Choisir de travailler un architecte, c'est en premier lieu :
+Choisir de travailler avec un architecte, c'est en premier lieu :
 * **Sécuriser financièrement** votre projet,
 * **gagner du temps** (déléguer certaines tâches et accélérer le processus),
 * s'assurer d'un travail correctement réalisé pour une **construction pérenne**.

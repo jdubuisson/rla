@@ -1,0 +1,19 @@
+<div class="modular-row showcase header">
+    <div class="container">
+        <div class="row">
+            {% set image = page.media.images|first %}
+            {% if image %}
+                <div class="col-xs-offset-3 col-sm-offset-0 col-md-offset-3 col-xs-6 col-md-3">
+                    {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}
+                </div>
+            {% endif %}
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                {{ content }}
+            </div>
+            {% for button in page.header.buttons %}
+                <a class="btn{% if button.primary %} btn-default{% endif %}"
+                   href="{{ base_url_relative }}{{ button.url }}">{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

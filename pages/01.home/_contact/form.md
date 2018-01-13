@@ -3,6 +3,7 @@ title: 9. Contact
 menu: Contact
 cache_enable: false
 class: colored-blade
+show_menu: true
 
 content:
     items: @self.children
@@ -51,6 +52,11 @@ form:
 70 route de Vannes  
 44100 NANTES  
 <a class="black" href="tel:0666959653"><i class="fa fa-phone" aria-hidden="true"></i> 06 66 95 96 53</a>
+
+<a class="black" target="_blank" href="https://www.facebook.com/roselynelaurentarchitecte"><i class="fab fa-facebook" aria-hidden="true"></i> @roselynelaurentarchitecte</a>
+
+
+
 
 SARL au capital de 2000 euros  
 inscrite au conseil régional des architectes de Pays de la Loire au N° s083963

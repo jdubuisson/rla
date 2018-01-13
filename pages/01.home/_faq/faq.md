@@ -2,6 +2,7 @@
 title: 8. F.A.Q.
 menu: F.A.Q.
 class: faq
+show_menu: true
 
 content:
     items: @self.children
