@@ -3,6 +3,10 @@ window.onload = function () {
     function toogleActive(event) {
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
+        var code = $(this).attr('data-code');
+        var image = $('.s-image-'+code);
+        image.siblings().addClass('hidden');
+        image.removeClass('hidden');
     }
 
     $('.feature-items').on('click', '.feature', toogleActive);

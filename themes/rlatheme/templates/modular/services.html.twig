@@ -11,7 +11,8 @@
                 <div class="feature-items row">
                     {% for child in collection %}
                         <div class="feature col-md-3{% if loop.index == 1 %} active{% endif %}"
-                             href="#content-{{ child.header.listcode }}" data-toggle="tab">
+                             href="#content-{{ child.header.listcode }}" data-toggle="tab"
+                             data-code="{{ child.header.listcode }}">
                             {% if child.header.icon %}
                                 <i class="fa fa-{{ child.header.icon }}"></i>
                             {% endif %}
@@ -34,13 +35,19 @@
                         {% endif %}
                     {% endfor %}
                 </div>
-
             </div>
             <div class="col-md-4">
-                {% set image = page.media.images|first %}
-                {% if image %}
-                    {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}
-                {% endif %}
+                {% for child in collection %}
+                    {% set image = child.media.images|first %}
+                    {% if image %}
+                        {% if loop.index == 1 %}
+                            {% set class ='s-image-'~child.header.listcode %}
+                        {% else %}
+                            {% set class ='hidden s-image-'~child.header.listcode %}
+                        {% endif %}
+                        {{ image.cropResize(400,400).html('','', class) }}
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
