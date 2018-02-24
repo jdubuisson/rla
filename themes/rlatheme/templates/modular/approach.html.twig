@@ -9,7 +9,7 @@
                 <div>{{ approach.content }}</div>
                 <h2>{{ approach.title }}</h2>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 text-center">
                 {% set image = page.media.images|first %}
                 {% if image %}
                     {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}

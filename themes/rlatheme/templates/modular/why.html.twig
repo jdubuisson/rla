@@ -2,7 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <h2>{{ page.title }}</h2>
+                <h2 class="master-icon-header">{{ page.title }}</h2>
+                <div class="master-icon">
+                    ?
+                </div>
                 {% set image = page.media.images|first %}
                 {% if image %}
                     {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}

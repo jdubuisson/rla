@@ -3,6 +3,14 @@ p {
     text-justify: inter-word;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+li {
+    font-size: 17px;
+}
+
 h3,
 strong,
 .modular .features .feature.active {
@@ -24,7 +32,12 @@ a.black {
 }
 
 .nav > li > a {
-    padding: 15px 10px;
+    padding: 20px 10px;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 20px 10px;
 }
 
 /* Row with equal height columns */
@@ -37,7 +50,7 @@ a.black {
 
 /* icon-container*/
 .icon-container {
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
     position: relative
 }
@@ -45,7 +58,7 @@ a.black {
 .icon-container svg {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%, -100%)
 }
 
@@ -58,7 +71,7 @@ a.black {
 
 .navbar-default .navbar-nav > li > a,
 .navbar .navbar-brand {
-    color: #effa00; /*yellow*/
+    color: #fcffa3; /*mellow yellow*/
     text-shadow: none;
 }
 
@@ -192,19 +205,36 @@ a.black {
 
 /* hamburger */
 .navbar-default .navbar-toggle {
-    border-color: #effa00; /*yellow*/
+    border-color: #fcffa3; /*mellow yellow*/
 }
 
 .navbar-default .navbar-toggle:hover {
-    background: #effa00; /*yellow*/
+    background: #fcffa3; /*mellow yellow*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background: #effa00; /*yellow*/
+    background: #fcffa3; /*mellow yellow*/
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
     background: #888; /*default grey*/
+}
+
+/* master icon */
+.master-icon {
+    text-align: center;
+    font-size: 175px;
+}
+
+
+@media only all and (max-width: 768px) {
+    .master-icon {
+        font-size: 35px;
+        display: inline-block;
+    }
+    h2.master-icon-header {
+        display: inline;
+    }
 }
 
 /* responsive */

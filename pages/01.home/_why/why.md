@@ -1,5 +1,5 @@
 ---
-title: 3. Pourquoi un architecte ?
+title: 3. Pourquoi un architecte
 menu: Pour quoi ?
 show_menu: true
 ---
