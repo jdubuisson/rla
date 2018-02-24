@@ -31,7 +31,7 @@ a.black {
     margin-top: 0;
 }
 
-.modular .features .feature {
+.modular .features .feature.col-md-4 {
     width: 33.3333%/* that was hardcoded in the theme :'( */
 }
 
