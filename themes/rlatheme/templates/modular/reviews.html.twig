@@ -26,7 +26,7 @@
                 {# tab points #}
                 <div class="feature-items row">
                     {% for child in collection %}
-                        <div class="feature col-md-2{% if loop.index == 1 %} col-md-offset-1 active{% endif %}"
+                        <div class="feature col-md-4{% if loop.index == 1 %} active{% endif %}"
                              href="#content-{{ child.header.listcode }}" data-toggle="tab">
                             <i class="fa fa-fw fa-circle"></i>
                         </div>

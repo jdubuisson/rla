@@ -31,6 +31,10 @@ a.black {
     margin-top: 0;
 }
 
+.modular .features .feature {
+    width: 33.3333%/* that was hardcoded in the theme :'( */
+}
+
 .nav > li > a {
     padding: 20px 10px;
 }
@@ -117,7 +121,7 @@ a.black {
 .modular .features.colored-blade h3,
 .modular .features.colored-blade strong,
 .modular .features.colored-blade .feature.active {
-    color: #effa00; /*yellow*/
+    color: #fcffa3; /*mellow yellow*/
 }
 
 .colored-blade ul {
