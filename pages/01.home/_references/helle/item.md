@@ -1,5 +1,5 @@
 ---
-title: EXTENSION d’une maison individuelle à ORVAULT (2017)
+title: Maison à ORVAULT (2017)
 categories: [Rénovation,Extension]
 ordering: 7
 listcode: credentials-7
