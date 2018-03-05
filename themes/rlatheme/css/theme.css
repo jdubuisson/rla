@@ -13,7 +13,8 @@ li {
 
 h3,
 strong,
-.modular .features .feature.active {
+.modular .features .feature.active,
+.modular .features .feature:hover{
     color: #00987f; /*green*/
 }
 
@@ -120,7 +121,8 @@ a.black {
 /* colored blade */
 .modular .features.colored-blade h3,
 .modular .features.colored-blade strong,
-.modular .features.colored-blade .feature.active {
+.modular .features.colored-blade .feature.active,
+.modular .features.colored-blade .feature:hover{
     color: #fcffa3; /*mellow yellow*/
 }
 

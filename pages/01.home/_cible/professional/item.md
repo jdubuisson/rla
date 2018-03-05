@@ -1,5 +1,5 @@
 ---
-title: Vous êtes un professionel ?
+title: Vous êtes un professionnel ?
 ordering: 1
 listcode: professional
 icon: industry

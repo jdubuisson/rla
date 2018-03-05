@@ -1,5 +1,5 @@
 ---
-title: Cabinet d’orthophoniste à MUR ERIGNE (2017)
+title: Cabinet d’orthophonie à MURS ERIGNE (2017)
 categories: [Neuf]
 ordering: 6
 listcode: credentials-6
